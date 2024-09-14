@@ -1,0 +1,65 @@
+body {
+    background-color: #0055B8; /* Azul oscuro */
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h5 {
+    color: #fff;
+}
+
+.navbar {
+    background: linear-gradient(to right, #003973, #0055B8);
+}
+
+.card {
+    background-color: #1c1c1c;
+    color: #fff;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card-img-top {
+    height: 400px;
+    object-fit: cover;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.card-img-top:hover {
+    opacity: 0.9;
+}
+
+.btn-outline-light {
+    margin-right: 10px;
+}
+
+.modal-header, .modal-footer {
+    background-color: #003973;
+}
+
+.modal-title {
+    color: #fff;
+}
+
+.modal-footer .btn-secondary {
+    background-color: #d33;
+}
+
+.modal-footer .btn-primary {
+    background-color: #0055B8;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #000;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
